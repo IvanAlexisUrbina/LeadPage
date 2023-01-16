@@ -1,0 +1,141 @@
+/* Mobile */
+@media (max-width: 450px) {
+
+    /*Event Form */
+    .btn {
+        opacity: 1;
+    }
+
+    #event-description {
+        padding: 5em;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #disclaimer {
+        padding: 2em;
+    }
+
+    #disclaimer h2 {
+        margin-bottom: .5em;
+    }
+
+    #subcription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    /*benefits section*/
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    /*event location*/
+
+    #Location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #addres {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #addres i {
+        /* margin: .3em 0; */
+    }
+    #key-benefits{
+        overflow-x: hidden;
+    }
+    #about-location {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #abaout-location h3 {
+        margin-bottom: 0;
+    }
+
+    #abaout-location p {
+        display: none;
+    }
+
+    /*event details container */
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    .detail-description {
+        padding: 0;
+        word-break: break-all;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    /*call to Action Section*/
+
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 80%;
+    }
+
+
+    #video{
+        left: 0;
+        width: 100%;
+    }
+    #containerVideo{
+        left: 0;
+    }
+    #nav{
+        font-size: small;
+        height: 10%;
+        width: 100%;
+    }
+    #logo{
+        width: 80px;
+        height: 100px;
+        margin-top: 8%;
+    }
+    #avion{
+        margin-top: 794px;
+    }
+
+    #whatsapp{
+        left: 0;
+    }
+}
