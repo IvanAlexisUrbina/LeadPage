@@ -264,6 +264,8 @@ img {
 .detail-description {
     width: 100%;
     padding-left: 2em;
+    text-align: justify;
+
 }
 
 .detail-description ul {
@@ -289,6 +291,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #cta h3 {

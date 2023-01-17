@@ -51,16 +51,3 @@ document.getElementById("three").onmouseover = function() {
 document.getElementById("three").onmouseout = function() {
   document.getElementById("text3").style.display = "none";
 };
-
-
-///linkeo con js
-
-let wap = document.getElementById("whatsapp");
-wap.addEventListener("click", function(){
-  window.location='http://127.0.0.1:5501/index.html';
-});
-
-let llamar = document.getElementById("apoyo");
-wap.addEventListener("click", function(){
-  window.location='http://127.0.0.1:5501/index.html';
-});
