@@ -63,6 +63,7 @@ img {
 
 #disclaimer .event-date {
     font-weight: bold;
+    padding-top: 5%;
 }
 
 #subscription-form {
@@ -378,8 +379,8 @@ img {
 
 /* ///normarl */
 #whatsapp {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     margin-top: 520px;
     z-index: 1;
@@ -394,8 +395,8 @@ img {
 
 }
 #apoyo {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     margin-top: 420px;
     z-index: 1;
@@ -430,6 +431,7 @@ img {
 
 /* texts animations */
 .text-focus-in {
+    text-align: center;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
@@ -498,11 +500,20 @@ img {
     display: none;
     transition: display 2s ease-out;
 }
-
+.about-event{
+    text-align: justify;
+}
 #text3 {
     position: absolute;
     margin: 10% 16%;
     font-size: 55px;font-weight: bolder;color: white;
     display: none;
     transition: display 2s ease-out;
+}
+#btnform{
+background: #35732b;
+padding: 7px 7px 7px 7px;
+border-radius: 3px;
+text-decoration: none;
+color: white;
 }
