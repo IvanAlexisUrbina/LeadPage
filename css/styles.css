@@ -478,7 +478,9 @@ img {
     cursor: pointer;
 
 }
-
+#titlehead{
+font-size: 24px;
+}
 /* Text inside */
 
 #text1 {

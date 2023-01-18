@@ -1,19 +1,28 @@
 /* Mobile */
 @media (max-width: 450px) {
-
+    *{
+        font-size: small;
+    }
     /*Event Form */
     .btn {
         opacity: 1;
     }
-
+    #titlemin{
+     text-align: left;
+     word-break: normal;
+    }
     #event-description {
         padding: 5em;
         flex-direction: column;
         height: auto;
     }
+    .about-event{
+        width: 350px;
+    }
 
     #disclaimer {
         padding: 2em;
+        
     }
 
     #disclaimer h2 {
@@ -92,8 +101,11 @@
 
     .detail-description {
         padding: 0;
-        word-break: break-all;
+        
+        word-break: normal;
+        text-align: left;
     }
+
 
     #detail-3 img {
         order: 2;
@@ -125,7 +137,7 @@
         left: 0;
     }
     #nav{
-        font-size: small;
+       
         height: 10%;
         width: 100%;
     }
@@ -135,14 +147,14 @@
         margin-top: 8%;
     }
     #avion{
-        margin-top: 794px;
+        margin-top: 110px;
     }
 
     #whatsapp{
-        left: 0;
+        right: 0;
     }
     #apoyo{
-        left: 0;
+        right: 0;
     }
 
 
@@ -167,7 +179,7 @@
         animation: jello-vertical 0.9s both;
     
     }
-    
+
 
     #three {
         filter: blur(0px);
